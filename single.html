@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="scripts/db.js"></script>
+  <script src="scripts/single.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Noticias</a>
+  </div>
+
+  <div class="container content" style="margin-top: 70px;">
+    <div class="news-single" id="news">
+      <img id="img">
+      <h1 id="title" class="title"></h1>
+      <p class="desc" id="desc"></p>
+      <div id="text">
+      </div>
+
+      <ul class="social">
+        <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-item">
+        <h4>Mais vistas</h4>
+        <div class="trending" id="trendings">
+          <a class="trending-item" id="trending"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

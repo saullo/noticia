@@ -1,0 +1,7 @@
+{
+  "editor.fontFamily": "Menlo, 'DejaVu Sans Mono', Consolas, 'Lucida Console', monospace",
+  "workbench.colorTheme": "Dopamina Dark Theme",
+  "editor.cursorStyle": "block",
+  "editor.renderLineHighlight": "none",
+  "liveServer.settings.port": 5501
+}
